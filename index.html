@@ -13,35 +13,51 @@
 
 
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/media425px.css">
-    <title>Sample of project</title>
     <link rel="stylesheet" href="CSS/media tablet.css">
+    <title>Sample of project</title>
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+
+<!-- bottom to top section -->
+<button class="top" onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+<!-- <img class="top" src="images/arrow_circle_up_FILL0_wght400_GRAD0_opsz24.png" alt=""> -->
+</button>
+
+
     <header>
-        <div id="#navbar" class="container flex navbar">
-            <div class="logo">
-                <img src="images/S.E.M invest fund logo.png" alt="logo">
-            </div>
-            <nav>
-                
-
-<input type="checkbox" name="" id="hamburger">
-<label for="hamburger"><i class="fa-sharp fa-solid fa-bars fa-bounce"></i></label>
+        
+        
 
 
-                <ul>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#about">About us</a></li>
-                <li><a href="#history">Our History</a></li>
-                <li><a href="#team">Our Team</a></li>
-                <li><a class="contact1" href="#contact">Contact US</a></li>
-                </ul>
-            </nav>
+<section class="container">
+
+    <div id="#navigation" class="flex navbar">
+        <div class="logo">
+            <img src="images/S.E.M invest fund logo.png" alt="logo">
         </div>
-        <!-- banner -->
-<section class="barq">
+        <input type="checkbox" id="hamburger">
+        <div class="bars">
+            <label for="hamburger">
+                <i class="fa-sharp fa-solid fa-bars fa-bounce"></i>
+            </label>
+        </div>
+        <nav>
+            <ul>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#about">About us</a></li>
+            <li><a href="#history">Our History</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a class="contact1" href="#contact">Contact US</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
     <div class="banner">
         <div class="stack">
             <br>
@@ -130,15 +146,10 @@
             </div>
             <div class="aboutimg2"><img src="images/S.E.M invest fund about 2.png" alt="invest fund"></div>
         </div>
-        <p style="font-weight: 500;
-        font-size: 13px;">With our extensive expertise in risk management, market analysis and financial trading, we cater to the needs of our global client base of private investors, high-net-worth individuals, banks and private trust funds. We kindly invite you to view our website in more detail to learn how you can benefit from our services.</p>
+        <p>With our extensive expertise in risk management, market analysis and financial trading, we cater to the needs of our global client base of private investors, high-net-worth individuals, banks and private trust funds. We kindly invite you to view our website in more detail to learn how you can benefit from our services.</p>
 
-        <h4 style="
-        font-weight: 800;
-        font-size: 15px;
-    ">Our asset management focusses on long-term asset class assessments rather than tactical maneuvering.</h4>
-        <p style="font-weight: 500;
-        font-size: 13px;">With this approach we feel well positioned thanks to our multi asset investment framework and are confident to be able to deliver what our stratgeies both in private asset management and investment fund management should provide: the appropriate, risk-adjusted returns our investors ask for. Consistent, reliable investment processes, a solid portfolio construction and dedicuated investment professionals are the key pillars for this.</p>
+        <h4>Our asset management focusses on long-term asset class assessments rather than tactical maneuvering.</h4>
+        <p>With this approach we feel well positioned thanks to our multi asset investment framework and are confident to be able to deliver what our stratgeies both in private asset management and investment fund management should provide: the appropriate, risk-adjusted returns our investors ask for. Consistent, reliable investment processes, a solid portfolio construction and dedicuated investment professionals are the key pillars for this.</p>
     </div>
 </div>
     </section>
@@ -213,7 +224,7 @@
             <h1>Drop Us Your Message</h1>
             <div class="formg">
          <div class="form-item fname">
-           <label for="name"><span class="entypo-user"></span></label><input name="name" type="text" placeholder="Name" required autofocus></input>
+           <label for="name"><span class="entypo-user"></span></label><input name="name" type="text" placeholder="Name" required></input>
           </div>
           <div class="form-item fmail">
             <label for="email"><span class="entypo-mail"></span></label><input name="email" type="email" placeholder="Email" required></input>
@@ -237,7 +248,7 @@
     <section id="map">
         <div class="location">
             <div class="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2156.333236314514!2d90.38533596569498!3d23.750736099448233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b98bab68c95d%3A0x33b3818c4acf063b!2seShikhon%20Campus-2!5e0!3m2!1sen!2sbd!4v1696061877362!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2156.333236314514!2d90.38533596569498!3d23.750736099448233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b98bab68c95d%3A0x33b3818c4acf063b!2seShikhon%20Campus-2!5e0!3m2!1sen!2sbd!4v1696061877362!5m2!1sen!2sbd" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 <div class="office">
@@ -305,13 +316,10 @@
 </footer>
 </section>
 
-<!-- eshikhon assignment -->
-<section class="assignment">
-    <h3>This page is for assignment only. Not an actual thing.</h3>
-    <p>Made with HTML & CSS only.</p>
-</section>
+
 
 <script src="JS/Scrolling navbar.js"></script>
+<script src="JS/top.js"></script>
 
 </body>
 </html>
